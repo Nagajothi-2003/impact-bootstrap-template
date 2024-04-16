@@ -1,0 +1,135 @@
+.bgColor{
+    background-color:#00796b;
+}
+.text:hover{
+    color:gainsboro;
+}
+.color{  
+    background-color:#008374;
+
+}
+.button{
+    border-radius: 20px;
+    font-family: calibri;
+    letter-spacing:2px;
+    background: rgb(255,255,255,0.1);
+    padding:10 !important;
+}
+h1::before{
+    content: " ";
+    background-color: green;
+    position: relative;
+    top:40px;
+    width:500px;
+}
+@media screen and (max-width:426px) {
+    .responsive{
+        padding: 5px;
+    }
+    
+}
+.move{
+    position:relative;
+    top:-50px;
+}
+.box{
+    background-color: #008374;
+    border-radius: 5px;  
+}
+.fontSize{
+    font-size:40px;
+  }
+  .fontsize1{
+    font-size: 18px;
+  }
+  @media screen and (max-width:426px) {
+    .fontSize{
+        font-size:25px;
+      }
+
+      .fontsize1{
+        
+        font-size: 13px;
+      }
+  }
+  .backgrd{
+    background-image: url("https://i.pinimg.com/originals/c0/c1/3e/c0c13eed2dd2dd7673a5734a38b4f270.jpg");
+    opacity:0.9;
+    background-size: cover;
+    width: 100%;
+    height:500px;
+    border-radius: 20px;
+    background-color: black;
+
+  }
+  @media screen and (max-width:426px){
+    .backgrd{
+        width:90%;
+    }
+  }
+  .action-button{
+    background-color:#00796b;
+    display:inline-block;
+    height: 70px;
+    width:70px;
+    padding: 3px;
+    padding-top: 3px;
+    border-radius: 50%;
+    line-height: 55px;
+  
+  }
+  .Call_border{
+    border:3px solid #00796b;
+    padding:8px 10px;
+    border-radius: 20px;
+    background-color: #00796b;
+    
+  }
+  .round-radius{
+    border-radius: 50px;
+  }
+.radiusOfCard{
+  border-radius: 15px;
+  margin: 10px;
+}
+.pricingButton{
+  letter-spacing: 2px;
+  border: 2px solid #00796b;
+  padding: 5px 20px;
+  border-radius: 15px;
+  background-color: #00796b;
+color:white;
+line-height: 20px;
+font-weight: 700;
+}
+.border{
+  border:5px solid #008374;
+  width:400px;
+  background-color: white;
+}
+.borderRadius{
+  border-radius: 50px;
+}
+
+
+.header h1 {
+  position: relative;
+  /* margin-top: 50px; */
+  display: inline-block;
+}
+
+.header h1::before {
+  content: '';
+  position: absolute;
+  width: 100%; /* Set width to 100% to span the full width of the heading */
+  height: 4px;
+  margin-top:5px;
+  bottom: -10px; /* Adjust the distance from the text */
+  background-color: #008374;
+}
+
+.btn{
+  background-color: #008374;
+  display: inline-flex;
+  padding:10px 20px;
+}
