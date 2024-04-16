@@ -114,7 +114,7 @@ font-weight: 700;
 
 .header h1 {
   position: relative;
-  /* margin-top: 50px; */
+  margin-top: 50px;
   display: inline-block;
 }
 
